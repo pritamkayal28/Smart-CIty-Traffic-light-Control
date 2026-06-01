@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Smart City Traffic Light Control using Reinforcement Learning
 
 An adaptive traffic signal control system at a four-way urban intersection using Deep Q-Learning (DQN). This project simulates vehicle queues, handles emergency vehicle overrides, dynamically controls traffic light phases to minimize overall wait times, and renders learning progress curves in real-time.
@@ -9,7 +9,7 @@ Developed based on the research report by:
 
 ---
 
-## 🚦 System Architecture & RL Formulation
+##  System Architecture & RL Formulation
 
 Traditional traffic signals rely on fixed-timers which fail to adapt to real-time traffic surges. This project models the traffic control problem as a Markov Decision Process (MDP) and trains an RL agent online using a custom PyGame environment.
 
@@ -37,7 +37,7 @@ Where:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The project has been refactored from a single monolithic Jupyter Notebook into a modular, industry-standard structure:
 
@@ -62,7 +62,7 @@ Smart-CIty-Traffic-light-Control/
 
 ---
 
-## 🛠️ Setup and Installation
+##  Setup and Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Simulation
+##  Running the Simulation
 
 To launch the traffic light controller simulation and start training the DQN agent:
 ```bash
@@ -96,7 +96,7 @@ python main.py
 
 ---
 
-## 📈 Hyperparameters
+##  Hyperparameters
 
 The learning performance of the DQN agent depends on the following parameters configured in `src/config.py`:
 
